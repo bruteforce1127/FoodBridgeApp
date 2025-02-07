@@ -1,12 +1,10 @@
-package com.kucp1127.FoodBridge.Model;
+package com.kucp1127.FoodBridge.Model.MoneyDonationModel;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.antlr.v4.runtime.misc.NotNull;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -32,6 +30,5 @@ public class DonationRequest {
     private String paymentMethod;
     private String city;
     private String country;
-    private List<String> donors;
-    private List<String> transactionIds;
+    private String imageUrl;
 }

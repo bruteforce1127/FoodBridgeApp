@@ -1,7 +1,7 @@
-package com.kucp1127.FoodBridge.Repository;
+package com.kucp1127.FoodBridge.Repository.MoneyDonationRepository;
 
 
-import com.kucp1127.FoodBridge.Model.DonationRequest;
+import com.kucp1127.FoodBridge.Model.MoneyDonationModel.DonationRequest;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
